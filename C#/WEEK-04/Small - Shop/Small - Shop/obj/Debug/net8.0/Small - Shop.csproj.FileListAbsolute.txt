@@ -1,0 +1,14 @@
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\bin\Debug\net8.0\Small - Shop.exe
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\bin\Debug\net8.0\Small - Shop.deps.json
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\bin\Debug\net8.0\Small - Shop.runtimeconfig.json
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\bin\Debug\net8.0\Small - Shop.dll
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\bin\Debug\net8.0\Small - Shop.pdb
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.GeneratedMSBuildEditorConfig.editorconfig
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.AssemblyInfoInputs.cache
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.AssemblyInfo.cs
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.csproj.CoreCompileInputs.cache
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.dll
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\refint\Small - Shop.dll
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.pdb
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\Small - Shop.genruntimeconfig.cache
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small - Shop\Small - Shop\obj\Debug\net8.0\ref\Small - Shop.dll

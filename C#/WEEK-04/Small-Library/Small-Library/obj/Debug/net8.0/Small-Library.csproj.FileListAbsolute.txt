@@ -1,0 +1,14 @@
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\bin\Debug\net8.0\Small-Library.exe
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\bin\Debug\net8.0\Small-Library.deps.json
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\bin\Debug\net8.0\Small-Library.runtimeconfig.json
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\bin\Debug\net8.0\Small-Library.dll
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\bin\Debug\net8.0\Small-Library.pdb
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.AssemblyInfoInputs.cache
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.AssemblyInfo.cs
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.csproj.CoreCompileInputs.cache
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.dll
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\refint\Small-Library.dll
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.pdb
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\Small-Library.genruntimeconfig.cache
+D:\All_Folders_Frrom_DESKTOP\Backend ( .NET ) @ Zag - Eng ( 2025 - 2026 )\Small-Library\Small-Library\obj\Debug\net8.0\ref\Small-Library.dll
