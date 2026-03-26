@@ -1,15 +1,15 @@
 // Question 2 - Tight Coupling Problem
 // What's the difference between A and B? Which one is better?
 
-// in case A:
+// Scenario A:
 // Direct dependency (Tight Coupling)
-// UserService بيعمل new لـ EmailService بنفسه
-// Testing  المشكلة صعب تغييره أو عمل
+// UserService creates EmailService using 'new'
+// Problem: hard to change or test
 
-// in case B:
+// Scenario B:
 // Dependency Injection + Interface
-// UserService بياخد IEmailService من بره
-// Flexible + سهل التغيير +  Testing سهل 
+// UserService receives IEmailService from outside
+// Advantage: flexible + easy to change + easy to test
 
-// الاحسن
-//  B لأنه Loose Coupling وأحسن في التصميم
+// Which is better?
+// Scenario B because it uses Loose Coupling and better design
