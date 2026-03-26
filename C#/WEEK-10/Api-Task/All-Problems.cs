@@ -1,81 +1,82 @@
+// ===================== Question 1 =====================
 // What is Dependency?
-// Dependency: أي كلاس بيعتمد على كلاس تاني عشان يشتغل.
+// Dependency: when a class relies on another class to work.
 
-// OrderService هنا معتمد على
-// - SqlConnection (للداتابيز)
-// - EmailSender (للإيميل)
-// - FileLogger (لوج)
+// Example:
+// OrderService depends on:
+// - SqlConnection (for database)
+// - EmailSender (for sending emails)
+// - FileLogger (for logging)
 
-// المشكلة
-// الكلاس مربوط مباشرة بالكلاسات دي (Tight Coupling)
-// يعني صعب تغيرهم أو تعمل Testing بسهولة
+// Problem:
+// The class is directly tied to these implementations (Tight Coupling)
+// → Hard to change or test
 
-// احسن حل
-// نستخدم Dependency Injection عشان نفصل بينهم ونخلي الكود مرن أكتر 
+// Better approach:
+// Use Dependency Injection to decouple them and make the code more flexible
 
-// ========================================================================================
 
-// Question 2 - Tight Coupling Problem
+// ===================== Question 2 =====================
+// Tight Coupling Problem
 // What's the difference between A and B? Which one is better?
 
-// in case A:
+// Scenario A:
 // Direct dependency (Tight Coupling)
-// UserService بيعمل new لـ EmailService بنفسه
-// Testing  المشكلة صعب تغييره أو عمل
+// UserService creates EmailService using 'new'
+// Problem: hard to change or test
 
-// in case B:
+// Scenario B:
 // Dependency Injection + Interface
-// UserService بياخد IEmailService من بره
-// Flexible + سهل التغيير +  Testing سهل 
+// UserService receives IEmailService from outside
+// Advantage: flexible + easy to change + easy to test
 
-// الاحسن
-//  B لأنه Loose Coupling وأحسن في التصميم
+// Which is better?
+// Scenario B because it uses Loose Coupling and better design
 
-// ========================================================================================
 
-// Question 3 - Constructor Injection
+// ===================== Question 3 =====================
+// Constructor Injection
 // What happens when a request is received?
 
+// When a request is received:
 // 1. The Controller instance is created
-// 2. ASP.NET Core sees that ProductController needs ProductService
+// 2. ASP.NET Core detects that ProductController needs ProductService
 // 3. It creates ProductService
-// 4. ProductService needs IRepository
-// 5. The DI container injects SqlRepository (registered as Scoped)
-// 6. Everything is wired automatically
+// 4. ProductService requires IRepository
+// 5. The DI Container injects SqlRepository (registered as AddScoped)
+// 6. Everything is wired together automatically
 
-// Result
+// Result:
 // ProductService uses SqlRepository without creating it manually
-//  Loose Coupling + cleaner code + easier testing
+// → Loose Coupling + cleaner code + easier maintenance and testing
 
-// ========================================================================================
 
-// Question 4 - DI Container Registration
+// ===================== Question 4 =====================
+// DI Container Registration
 // What is the output for each registration?
 
-// Registration A: Transient
+// Transient:
 // New instance every time it's requested
-// email1 != email2 → AreSameInstance = false
+// → AreSameInstance = false
 
-// Registration B: Scoped
+// Scoped:
 // Same instance within the same request
-// email1 == email2 → AreSameInstance = true
+// → AreSameInstance = true
 
-// Registration C: Singleton
+// Singleton:
 // One instance for the entire application lifetime
-// email1 == email2 → AreSameInstance = true
+// → AreSameInstance = true
 
-// ========================================================================================
 
-// Question 5 - Multiple Registrations
+// ===================== Question 5 =====================
+// Multiple Registrations
 // Which implementation will Controller A receive?
 // How many services will be injected into Controller B?
 
 // Controller A:
-// When injecting a single IEmailService
 // The LAST registered service is used
 // → MailgunEmailService
 
 // Controller B:
-// When injecting IEnumerable<IEmailService>
-// All registered services are injected
+// All registered services are injected as IEnumerable
 // → 3 services (SmtpEmailService, SendGridEmailService, MailgunEmailService)
