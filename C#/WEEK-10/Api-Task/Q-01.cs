@@ -1,14 +1,15 @@
 // What is Dependency?
-// Dependency: أي كلاس بيعتمد على كلاس تاني عشان يشتغل.
+// Dependency: when a class relies on another class to work.
 
-// OrderService هنا معتمد على
-// - SqlConnection (للداتابيز)
-// - EmailSender (للإيميل)
-// - FileLogger (لوج)
+// Example:
+// OrderService depends on:
+// - SqlConnection (for database)
+// - EmailSender (for sending emails)
+// - FileLogger (for logging)
 
-// المشكلة
-// الكلاس مربوط مباشرة بالكلاسات دي (Tight Coupling)
-// يعني صعب تغيرهم أو تعمل Testing بسهولة
+// Problem:
+// The class is directly tied to these implementations (Tight Coupling)
+// → Hard to change or test
 
-// احسن حل
-// نستخدم Dependency Injection عشان نفصل بينهم ونخلي الكود مرن أكتر
+// Better approach:
+// Use Dependency Injection to decouple them and make the code more flexible
