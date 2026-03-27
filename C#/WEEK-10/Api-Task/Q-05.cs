@@ -1,13 +1,13 @@
 // Question 5 - Multiple Registrations
-// Which implementation will Controller A receive?
-// How many services will be injected into Controller B?
+// Which implementation will Controller A receive ?
+// How many services will be injected into Controller B ?
 
-// Controller A:
+// Controller A :
 // When injecting a single IEmailService
 // The LAST registered service is used
-// → MailgunEmailService
+//  MailgunEmailService
 
-// Controller B:
+// Controller B :
 // When injecting IEnumerable<IEmailService>
 // All registered services are injected
-// → 3 services (SmtpEmailService, SendGridEmailService, MailgunEmailService)
+//  3 services (SmtpEmailService, SendGridEmailService, MailgunEmailService)
