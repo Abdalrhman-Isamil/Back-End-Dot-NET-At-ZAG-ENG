@@ -1,0 +1,6 @@
+@JobListingsAPI_HostAddress = http://localhost:5070
+
+GET {{JobListingsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
